@@ -11,6 +11,17 @@ BEGIN
 END get_stuff
 ;
 
+FUNCTION get_new_stuff
+( pi_input IN VARCHAR2
+)
+RETURN VARCHAR2
+IS
+BEGIN
+  RETURN ('new stuff')
+  ;
+END get_new_stuff
+;
+
 END TFA$SPCK_GENERIC
 ;
 /

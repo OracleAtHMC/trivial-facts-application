@@ -17,6 +17,12 @@ FUNCTION get_stuff
 RETURN VARCHAR2
 ;
 
+FUNCTION get_new_stuff
+( pi_input IN VARCHAR2
+)
+RETURN VARCHAR2
+;
+
 END TFA$SPCK_GENERIC
 ;
 /
